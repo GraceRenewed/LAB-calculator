@@ -1,0 +1,16 @@
+body {
+  background-color: lightblue;
+}
+
+.button {
+  color: black;
+  background-color: lightgray;
+  font-size: 25px;
+  text-align: center;
+  padding:5px;
+}
+
+.wrapper {
+  width: 400px;
+  background-color: black;
+}
