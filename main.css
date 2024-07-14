@@ -1,13 +1,16 @@
 body {
-  background-color: lightblue;
+ 
 }
 
 .button {
   color: black;
   background-color: lightgray;
+  border: solid 2px black;
   font-size: 25px;
   text-align: center;
   padding:5px;
+  margin: 10px;
+
 }
 
 .wrapper {
