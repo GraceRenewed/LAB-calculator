@@ -16,22 +16,22 @@ body{
   font-weight: bold;
 }
 
-.btn-primary {
-  background: #d8d9db;
+.btn {
+  background-color: #d8d9db;
   color: #0000;
   border: #0000;
-
- 
+  
 }
-#divide, #multiply, #plus, #minus, #equals, #subtract {
-  background: #df974c;
+
+.last {
+  background-color: #df974c;
   color: #ffffff;
 }
  
-
 .btn-active {
   background-color: #ebebeb;
 }
+
 .active {
   background-color: #bbbcbe;
 }
