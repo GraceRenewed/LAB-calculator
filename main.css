@@ -9,29 +9,42 @@ body{
 }
 
 .button {
-  border: 1px solid black;
   background-color: black;
   height: 40px;
   font-size: 3rem;
   font-weight: bold;
+  justify-content: space-between;
+  margin-bottom: .5%;
 }
 
-.btn {
+.btn-primary {
+  border: 1px solid black;
   background-color: #d8d9db;
   color: #0000;
-  border: #0000;
-  
+  height: 40px;
+  justify-content: space-between;
+  margin-bottom: .5%;  
 }
+
+.btn-primary:hover {
+background-color: #ebebeb;
+}
+
+.btn-primary:active {
+  background-color: #bbbcbe;
+}
+
 
 .last {
   background-color: #df974c;
   color: #ffffff;
-}
- 
-.btn-active {
-  background-color: #ebebeb;
+  height: 40px;
+  width: 40px;
+  justify-content: space-between;
+  margin-bottom: .5%;
 }
 
-.active {
-  background-color: #bbbcbe;
+.last:hover {
+  background-color: #dfb07e;
+  color: black;
 }
