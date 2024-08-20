@@ -8,43 +8,50 @@ body{
   width: 400px;
 }
 
+.table {
+  border-spacing: 0rem;
+}
 .button {
   background-color: black;
   height: 40px;
   font-size: 3rem;
   font-weight: bold;
-  justify-content: space-between;
-  margin-bottom: .5%;
 }
 
 .btn-primary {
   border: 1px solid black;
   background-color: #d8d9db;
-  color: #0000;
+  color: #000000;
   height: 40px;
-  justify-content: space-between;
-  margin-bottom: .5%;  
 }
 
 .btn-primary:hover {
 background-color: #ebebeb;
+color: #000000;
 }
 
-.btn-primary:active {
+.btn-primary:active,
+.btn:focus,
+.btn:target,
+.btn:active:focus {
   background-color: #bbbcbe;
+  color: #000000;
 }
-
 
 .last {
   background-color: #df974c;
   color: #ffffff;
   height: 40px;
   width: 40px;
-  justify-content: space-between;
-  margin-bottom: .5%;
 }
 
 .last:hover {
   background-color: #dfb07e;
-  color: black;
+}
+
+.last:active,
+.last:focus,
+.last:target,
+.last:active:focus {
+  background-color: #dd8d37;
 }
